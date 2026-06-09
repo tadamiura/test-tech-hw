@@ -25,9 +25,14 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
+Requires Node.js `^20.19.0` or `>=22.12.0` (see `package.json` `engines`). With [nvm](https://github.com/nvm-sh/nvm), use the version from `.nvmrc`:
+
 ```sh
+nvm install   # reads .nvmrc, installs if needed, and switches to it
 npm install
 ```
+
+In a new terminal session, run `nvm use` to switch back to the project Node version.
 
 ### Compile and Hot-Reload for Development
 
